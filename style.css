@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 1280px ;
+    margin: auto;
+}
+/* headers */
+.logo{
+    width: 200px;
+}
+.nav {
+    margin: 35px 0px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li {
+  padding: 0 18px;
+  font-weight: 500;
+  font-size:22px ;
+}
+.btn {
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: wheat;
+    display: inline-flex;
+padding: 19px 32px;
+justify-content: center;
+align-items: center;
+gap: 29px;
+border-radius: 12px;
+background: var(--p, #5857E9);
+box-shadow: 0px 12px 22px 0px rgba(133, 132, 254, 0.50);
+}
+
+/* Hero Section */
+.hero {
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.hero_text h1 {
+ font-family: Montserrat;
+font-size: 75px;
+font-style: normal;
+font-weight: 700;
+line-height: 109%;
+letter-spacing: -2.25px;
+color:#292930 ;
+}
+.hero_text p {
+    margin-bottom: 25px;
+    margin-top: 28px;
+    color:#292930 ;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 120.5%;
+letter-spacing: -0.66px;}
+/* Services */
+.services h3 {
+ font-size: 42px;
+ text-align: center;
+}
+.service {
+    display: flex;
+    gap: 24px;
+    margin-top: 60px;
+}
+.service_item {
+    text-align: center;
+}
+.service_item h4 {
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+margin-top: 16px;
+margin-bottom: 24px;
+}
+.service_item p {
+    font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+}
+/* choose */
+.choose {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0px;
+    
+}
+.textChoose h3 {
+ font-size: 38px;
+font-style: normal;
+font-weight: 700;
+margin-top: 16px;
+}
+.src {
+    display: flex;
+    gap: 8px;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: #dfc450;
+    border-radius: 50%;
+  
+}
+.all {
+    margin-top: 18px;
+}
+.item_choose {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}.item_choose h4 {
+    font-size: 30px;
+font-style: normal;
+font-weight: 500;
+}.item_choose p {
+  color: #535360;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+}
+.two_choose {
+    margin:22px 0px;
+}
