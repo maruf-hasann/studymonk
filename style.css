@@ -146,3 +146,75 @@ font-weight: 500;
 .two_choose {
     margin:22px 0px;
 }
+
+/* Project */
+.project {
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+}
+#project h3 {
+     font-size: 42px;
+ text-align: center;
+ margin-bottom: 40px;
+}
+.action {
+    margin-bottom: 30px;
+    display: flex;
+    /* height: 225px; */
+    padding: 30px 20px;
+  background: #4342BD;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.action h1 {
+    color: white;
+}
+.talk {
+    border: none;
+    color: white;
+    display: inline-flex;
+padding: 24px 32px;
+justify-content: center;
+align-items: center;
+gap: 29px;
+border-radius: 12px;
+background: #4342BD;
+box-shadow: 0px 12px 22px 0px rgba(133, 132, 254, 0.50);
+
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+  .hero {
+    flex-direction: column-reverse;
+  }
+  .hero_text {
+    text-align: center;
+  }
+  .hero_text h1 {
+    font-size: 46px;
+    text-align: center;
+  }
+  .hero_text p {
+    text-align: center;
+  }
+  .service {
+   flex-direction: column;
+}
+.choose {
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.textChoose {
+    margin-bottom: 19px;
+}
+.project {
+    flex-direction: column;
+}
+.action {
+    flex-direction: column;
+}
+}
